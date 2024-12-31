@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #000428, #004e92);
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero {
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 600px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #ffcc00;
+    text-shadow: 0 0 20px #ff9900;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 10px 0 20px;
+}
+
+.countdown {
+    margin: 20px 0;
+}
+
+#timer {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff4500;
+}
+
+.fireworks {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('fireworks.gif') no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.wishes {
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.wishes h2 {
+    color: #ffcc00;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    font-size: 0.9rem;
+}
